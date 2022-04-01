@@ -20,9 +20,9 @@
       "type": "richtext",
       "required": true
     },
-    "parentSection": {
+    "parent_sections": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::section.section"
     }
   }
