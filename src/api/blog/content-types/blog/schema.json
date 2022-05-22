@@ -28,7 +28,7 @@
         "images"
       ]
     },
-    "sections": {
+    "parentSections": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::section.section"
