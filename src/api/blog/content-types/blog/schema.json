@@ -28,10 +28,10 @@
         "images"
       ]
     },
-    "parentSections": {
+    "sections": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::blog.blog"
+      "target": "api::section.section"
     }
   }
 }
